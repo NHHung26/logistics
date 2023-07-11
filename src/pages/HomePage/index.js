@@ -352,7 +352,7 @@ export default function HomePage() {
                         </div>
                       </div>
                     </div>
-                    <div role="tabpanel" className="tab-pane" id="messages">
+                    <div role="tabpanel" className="tab-pane" id="mmessages">
                       <div className="row">
                         <div className="col-md-6 col-md-push-6">
                           <img
@@ -956,6 +956,220 @@ export default function HomePage() {
           </div>
         </section>
       </section>
+      <div>
+        <div className="backdrop__body-backdrop___1rvky" />
+        <div className="c-menu--slide-left">
+          <div className="la-nav-top-login">
+            <div className="la-avatar-nav p-relative text-center">
+              <a href="/account">
+                <img
+                  className="img-responsive"
+                  src="//bizweb.dktcdn.net/100/472/220/themes/888379/assets/av-none-user.png?1687850866298"
+                  alt="avatar"
+                />
+              </a>
+              <div className="la-hello-user-nav ng-scope">Xin chào</div>
+              <img
+                id="close-nav"
+                className="c-menu__close"
+                src="//bizweb.dktcdn.net/100/472/220/themes/888379/assets/ic-close-menu.png?1687850866298"
+                alt="close nav"
+              />
+            </div>
+            <div className="la-action-link-nav text-center">
+              Chào mừng quý khách đến với Kho Vận Toàn Nhất
+            </div>
+          </div>
+          <div className="la-scroll-fix-infor-user">
+            {/*CATEGORY*/}
+            <div className="la-nav-menu-items">
+              <div className="la-title-nav-items">Tất cả danh mục</div>
+              <ul className="la-nav-list-items">
+                <li className="ng-scope">
+                  <a href="/">Trang chủ</a>
+                </li>
+                <li className="ng-scope ng-has-child1">
+                  <a href="/dich-vu">
+                    Dịch vụ <i className="fa fa-plus fa1" aria-hidden="true" />
+                  </a>
+                  <ul className="ul-has-child1">
+                    <li className="ng-scope ng-has-child2">
+                      <a href="/kho-cho-thue-dich-vu-kho">
+                        Kho cho thuê, dịch vụ kho{" "}
+                        <i className="fa fa-plus fa2" aria-hidden="true" />
+                      </a>
+                      <ul className="ul-has-child2">
+                        <li className="ng-scope">
+                          <a href="/kho-luu-hang-hoa">Cho thuê kho bãi</a>
+                        </li>
+                        <li className="ng-scope">
+                          <a href="/kho-thuong-mai-dien-tu">
+                            Kho Thương mại điện tử
+                          </a>
+                        </li>
+                        <li className="ng-scope">
+                          <a href="/kho-tu-quan">Kho tự quản</a>
+                        </li>
+                        <li className="ng-scope">
+                          <a href="/">Dịch vụ kho khác</a>
+                        </li>
+                        <li className="ng-scope">
+                          <a href="/thue-kho-chung">Thuê kho chung</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li className="ng-scope ng-has-child2">
+                      <a href="/van-tai-duong-bo-toan-quoc-2">
+                        Vận tải đường bộ toàn quốc{" "}
+                        <i className="fa fa-plus fa2" aria-hidden="true" />
+                      </a>
+                      <ul className="ul-has-child2">
+                        <li className="ng-scope">
+                          <a href="/van-tai-duong-bo-toan-quoc">
+                            Nhận / gửi hàng tại Toàn Nhất
+                          </a>
+                        </li>
+                        <li className="ng-scope">
+                          <a href="/nhan-phat-tai-dia-chi">
+                            Nhận/ phát tại địa chỉ
+                          </a>
+                        </li>
+                        <li className="ng-scope">
+                          <a href="/thue-xe-nguyen-chuyen">
+                            Thuê xe nguyên chuyến
+                          </a>
+                        </li>
+                        <li className="ng-scope">
+                          <a href="/giao-hang-sieu-thi">Giao hàng siêu thị</a>
+                        </li>
+                        <li className="ng-scope">
+                          <a href="/dich-vu-van-chuyen">Dịch vụ vận chuyển</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li className="ng-scope ng-has-child2">
+                      <a href="/dich-vu-thu-ho-dong-goi">
+                        Dịch vụ thu hộ, đóng gói{" "}
+                        <i className="fa fa-plus fa2" aria-hidden="true" />
+                      </a>
+                      <ul className="ul-has-child2">
+                        <li className="ng-scope">
+                          <a href="/thu-cuoc-dau-nguoi-nhan">
+                            Thu cước đầu người nhận
+                          </a>
+                        </li>
+                        <li className="ng-scope">
+                          <a href="/thu-ho-tien-hang-cod">
+                            Thu hộ tiền hàng (COD)
+                          </a>
+                        </li>
+                        <li className="ng-scope">
+                          <a href="/dich-vu-dong-goi-dai-kien">
+                            Dịch vụ đóng gói, đai kiện
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li className="ng-scope ng-has-child2">
+                      <a href="/phuong-thuc-van-tai-khac">
+                        Phương thức vận tải khác{" "}
+                        <i className="fa fa-plus fa2" aria-hidden="true" />
+                      </a>
+                      <ul className="ul-has-child2">
+                        <li className="ng-scope">
+                          <a href="#">Vận chuyển quốc tế</a>
+                        </li>
+                        <li className="ng-scope">
+                          <a href="#">Dịch vụ vận tải đường bay</a>
+                        </li>
+                        <li className="ng-scope">
+                          <a href="#">Dịch vụ vận tải đường sắt</a>
+                        </li>
+                        <li className="ng-scope">
+                          <a href="#">Dịch vụ vận tải đường thủy</a>
+                        </li>
+                        <li className="ng-scope">
+                          <a href="#">Dịch vụ vận tải hàng hóa giá trị cao</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li className="ng-scope">
+                      <a href="/dich-vu-van-chuyen">Dịch vụ vận chuyển</a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="ng-scope ng-has-child1">
+                  <a href="/thong-tin">
+                    Thông tin{" "}
+                    <i className="fa fa-plus fa1" aria-hidden="true" />
+                  </a>
+                  <ul className="ul-has-child1">
+                    <li className="ng-scope">
+                      <a href="/gioi-thieu">Về chúng tôi</a>
+                    </li>
+                    <li className="ng-scope ng-has-child2">
+                      <a href="/tin-hoat-dong">
+                        Tin hoạt động{" "}
+                        <i className="fa fa-plus fa2" aria-hidden="true" />
+                      </a>
+                      <ul className="ul-has-child2">
+                        <li className="ng-scope">
+                          <a href="/gui-thong-tin-khieu-nai">Tin tức demo</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li className="ng-scope">
+                      <a href="/tin-tuc">Tin khuyến mãi</a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="ng-scope ng-has-child1">
+                  <a href="/ho-tro-khach-hang">
+                    Hỗ trợ khách hàng{" "}
+                    <i className="fa fa-plus fa1" aria-hidden="true" />
+                  </a>
+                  <ul className="ul-has-child1">
+                    <li className="ng-scope">
+                      <a href="/huong-dan-su-dung">Hướng dẫn sử dụng</a>
+                    </li>
+                    <li className="ng-scope">
+                      <a href="/cau-hoi-thuong-gap">Câu hỏi thường gặp</a>
+                    </li>
+                    <li className="ng-scope">
+                      <a href="/gui-thong-tin-khieu-nai">
+                        Gửi thông tin khiếu nại
+                      </a>
+                    </li>
+                    <li className="ng-scope">
+                      <a href="/gop-y-dich-vu">Góp ý dịch vụ</a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="ng-scope ng-has-child1">
+                  <a href="/tai-khoan">
+                    Tài khoản{" "}
+                    <i className="fa fa-plus fa1" aria-hidden="true" />
+                  </a>
+                  <ul className="ul-has-child1">
+                    <li className="ng-scope">
+                      <a href="/account/login">Đăng nhập</a>
+                    </li>
+                    <li className="ng-scope">
+                      <a href="/account/register">Đăng ký</a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="ng-scope">
+                  <a href="/lien-he">Liên hệ</a>
+                </li>
+              </ul>
+            </div>
+            <div className="la-nav-slide-banner">
+              <a href="#"></a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
